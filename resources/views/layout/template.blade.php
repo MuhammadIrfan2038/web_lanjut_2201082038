@@ -5,6 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PanShoes - @yield('title', 'Website')</title>
+    <style type="text/css">
+    .box{
+      background-color: #ccc;
+      color: black;
+      transition: background-color 500ms 300ms, color 500ms 300ms;
+    }
+    .box:hover{
+        background-color: #000;
+        color: #ccc;
+    }
+  </style>
     <link href="/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
@@ -70,7 +81,7 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-12 mt-3">
-                        <p>&copy; copyright 2023 | built with <i class="bi bi-heart-fill"></i> by <a href="http://instagram.com/mhdirfan17_" target="_blank">Muhammad Irfan</a></p>
+                        <p>&copy; copyright 2024 | built with <i class="bi bi-heart-fill"></i> by <a href="http://instagram.com/mhdirfan17_" target="_blank">Muhammad Irfan</a></p>
                     </div>
                 </div>
             </div>
